@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_reload"
+        android:orderInCategory="2"
+        android:title="Tomar Foto"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="3"
+        android:title="Inicio"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_favorito"
+        android:orderInCategory="4"
+        android:title="Favoritos"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_archivado"
+        android:orderInCategory="5"
+        android:title="Archivado"
+        app:showAsAction="never"/>
+</menu>
